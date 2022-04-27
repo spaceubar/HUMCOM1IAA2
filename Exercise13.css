@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .text {
+        font-size: 16px;
+    }
+}
+
+div {
+    background-color: gray;
+    padding: 0;
+    border: 1px solid black;
+    margin: 0;
+}
+p {
+    background-color: white;
+    padding: 15px;
+    border-style: solid;
+    border-color:aquamarine;
+    margin: 10px !important;
+}
+div.small {
+    background-color: gray;
+    padding: 0;
+    border: 1px solid black;
+    width: 400px;
+}
