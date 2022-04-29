@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript - Daniel Ace Tamondong</title>
+        
+        <script>
+            /*function sayHello() {
+                document.write("Hello");
+            }
+            or */
+            function sayHello(who) {
+                document.write("Hello" + who);
+            }
+        </script>
+        
+    <body>
+        <script>
+            document.writeln("Hello, World!");
+
+            var myVariable;
+            myVariable = 5;
+            
+            //string
+            var words = "This is";
+            var morewords = " a sentence";
+            var sentence = words + morewords;
+            document.writeln(sentence);
+
+            //int
+            var num1 = 5;
+            var num2 = 3;
+            var total = num1 + num2;
+            document.writeln(total);
+
+            //numIncrement
+            var plus = num1++;
+            document.writeln(num1);
+            
+            //stringLength
+            var alpha = "ABCDEFG";
+            var length = alpha.length;
+            document.writeln(length);
+
+            var result = alpha.substring(0, 5);
+            document.writeln(result);
+
+            //arrays
+            var a = new Array(7);
+            a[0] = "cat";
+            a[1] = "dog";
+            a[2] = 95;
+            a[6] = true;
+            document.writeln(a[1]);
+
+            var b = ["dog", "cat", 3, 5, false];
+            document.writeln([3]);
+
+            //functions
+            sayHello("Bob");
+            document.write("<br>");
+            sayHello("Mary");
+
+            //if else statement
+            var c = 12;
+            if (c > 10) {
+                alert(c);
+            } else {
+                alert("The condition was false");
+            }
+
+            //for loop
+            for (i=0;i<5;i++) {
+                document.writeln("This is iteration " + i + "<br>");
+            }
+        </script>
+    </body>
+</html>
